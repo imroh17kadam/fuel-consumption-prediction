@@ -1,6 +1,9 @@
 # Project Title
 Fuel Consumption Prediction
 
+# Web App Screenshot
+![App Screenshot](./templates/fuelconsumptionpredictor.png)
+
 # Description
 The Fuel Consumption Predictor is a Machine Learning model designed to forecast the amount of fuel a vehicle will consume during a trip. It considers factors such as vehicle type, engine specifications, driving behavior, and route characteristics to make its predictions.
 

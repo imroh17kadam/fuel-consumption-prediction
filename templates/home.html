@@ -1,3 +1,83 @@
-<h1>
-    Fuel Consumption Predictor
-</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Input Form</title>
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        min-height: 100vh;
+        background-image: url('https://img.freepik.com/premium-photo/truck-road-with-lot-other-trucks-it_777271-9222.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin-bottom: 10%;
+    }
+
+    .container {
+        width: 80%;
+        max-width: 600px;
+        background-color: #ffffff; /* Bright yellow */
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        margin-left: 3%;
+        margin-top: 150px;
+        opacity: 0.8;
+    }
+
+    input[type="text"] {
+        width: calc(100% - 1px);
+        margin: 5px 0;
+        padding: 10px;
+        border: 1px solid #f1c40f; /* Dark yellow */
+        border-radius: 5px;
+        box-sizing: border-box;
+    }
+
+    button {
+        width: 100%;
+        padding: 10px;
+        background-color: #3498db; /* Blue */
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+        margin-top: 10px;
+    }
+
+    button:hover {
+        background-color: #2980b9; /* Dark blue */
+    }
+</style>
+</head>
+<body>
+<div class="container">
+    <h2>Fuel Consumption Predictor</h2>
+    <form>
+        <input type="text" placeholder="Odometer">
+        <input type="text" placeholder="Total Travelled (Kms)">
+        <input type="text" placeholder="Fuel Efficiency">
+        <input type="text" placeholder="Fuel Consumed">
+        <input type="text" placeholder="Total Time Total Minutes">
+        <input type="text" placeholder="Idling Total Minutes">
+        <input type="text" placeholder="Night Driving Total Minutes">
+        <input type="text" placeholder="Stoppage Total Minutes">
+        <input type="text" placeholder="Stopped Percentage">
+        <input type="text" placeholder="Moving Percentage">
+        <input type="text" placeholder="Idling Percentage">
+        <input type="text" placeholder="Harsh Acceleration">
+        <input type="text" placeholder="Harsh Braking">
+        <input type="text" placeholder="Model Name">
+        <input type="text" placeholder="Fuel type">
+        <button type="submit">Predict</button>
+    </form>
+    <h3>The vehicle is estimated to consume 7273.93 liters of fuel.</h3>
+</div>
+</body>
+</html>
