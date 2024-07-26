@@ -4,3 +4,6 @@ numpy
 matplotlib
 scikit-learn
 gunicorn
+seaborn
+openpyxl
+- e.
